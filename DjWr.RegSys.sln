@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05Common", "05Common", "{0D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02Model", "02Model", "{F04F3F8C-79B8-4B41-B922-26DAD71EE68F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjWr.Web", "DjWr.Web\DjWr.Web.csproj", "{0CDB1ED3-ED5E-4953-8815-3D907686BBC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjWr.Web", "DjWr.Web\DjWr.Web.csproj", "{0CDB1ED3-ED5E-4953-8815-3D907686BBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DjWr.Model", "DjWr.Model\DjWr.Model.csproj", "{59D4EE4B-FEAE-4F90-B23F-DE9E5D0114E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{0CDB1ED3-ED5E-4953-8815-3D907686BBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CDB1ED3-ED5E-4953-8815-3D907686BBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CDB1ED3-ED5E-4953-8815-3D907686BBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D4EE4B-FEAE-4F90-B23F-DE9E5D0114E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D4EE4B-FEAE-4F90-B23F-DE9E5D0114E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D4EE4B-FEAE-4F90-B23F-DE9E5D0114E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D4EE4B-FEAE-4F90-B23F-DE9E5D0114E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0CDB1ED3-ED5E-4953-8815-3D907686BBC8} = {C569688F-616C-4D7D-9BA7-2037D270E149}
+		{59D4EE4B-FEAE-4F90-B23F-DE9E5D0114E6} = {F04F3F8C-79B8-4B41-B922-26DAD71EE68F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE0EA2DA-FFFF-4BE3-998E-6571E08FCE14}
